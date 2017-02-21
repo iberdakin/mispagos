@@ -2,7 +2,7 @@
 from ConfigParser import ConfigParser
 
 
-def config(filename='mispagosdb.ini', section='postgresql'):
+def config(filename='DB\mispagosdb.ini', section='postgresql'):
 	# creat a parser
 	parser = ConfigParser()
 	# read config file
